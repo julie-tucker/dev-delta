@@ -1,0 +1,39 @@
+body {
+  font-family: 'Frank Ruhl Libre', serif;
+  margin: 20px;
+  line-height: 1.6;
+  background-color: #f7f9f7;   
+  color: #1a2e1a;              
+}
+nav {
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #c8d6c8;
+}
+nav a {
+  margin-right: 15px;
+  color: #2e5a2e;              
+  text-decoration: none;
+}
+h1, h2, h3 {
+  color: #1a3d1a;              
+}
+footer {
+  margin-top: 50px;
+  border-top: 1px solid #c8d6c8;
+  padding-top: 12px;
+  font-size: 0.9em;
+  color: #4a6b4a;
+}
+footer a {
+  color: #2e5a2e;
+}
+.review-badge {
+  background-color: #ffe08a;
+  color: #333;
+}
+
+.navbar {
+  border-radius:10px;
+   background-color: #ffe08a;
+}
