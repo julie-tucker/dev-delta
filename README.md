@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Subscription Tracker
 
 >See  all of your subscriptions
@@ -61,3 +62,6 @@ dev-bravo/
 ├── js/
 │   └── app.js
 └── README.md
+=======
+# dev-bravo-julie-tucker-submission
+>>>>>>> baa8f9ed4122b75a95516d9c272fa9696ba14d42
