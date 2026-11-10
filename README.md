@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Subscription Tracker
 
@@ -67,3 +68,6 @@ dev-bravo/
 │   └── app.js
 └── README.md
 ```
+=======
+# dev-delta-
+>>>>>>> 6cf0429c8e0462ab7f93c423d8565b42e2b5f978
