@@ -37,3 +37,21 @@ footer a {
   border-radius:10px;
    background-color: #ffe08a;
 }
+
+/* shows who is signed in on the right side of the nav */
+.nav-user {
+  float: right;
+  font-size: 0.9em;
+  color: #4a6b4a;
+}
+
+/* makes the json on the admin page easy to read */
+#app-state-output {
+  background-color: #fff;
+  border: 1px solid #c8d6c8;
+  border-radius: 6px;
+  padding: 12px;
+  max-height: 400px;
+  overflow: auto;
+  font-size: 0.85em;
+}

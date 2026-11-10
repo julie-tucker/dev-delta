@@ -1,0 +1,10 @@
+[
+  { "id": 1, "name": "Netflix", "category": "Streaming", "cost": 15.49, "renewal": "2026-11-12", "status": "Active", "owner": "user" },
+  { "id": 2, "name": "Spotify", "category": "Music", "cost": 11.99, "renewal": "2026-11-28", "status": "Active", "owner": "user" },
+  { "id": 3, "name": "Apple Cloud Storage", "category": "Other", "cost": 3.99, "renewal": "2026-11-20", "status": "Review", "owner": "user" },
+  { "id": 4, "name": "Hulu", "category": "Streaming", "cost": 9.99, "renewal": "2026-12-03", "status": "Active", "owner": "user" },
+  { "id": 5, "name": "Adobe Creative Cloud", "category": "Software", "cost": 22.99, "renewal": "2026-11-15", "status": "Active", "owner": "admin" },
+  { "id": 6, "name": "Microsoft 365", "category": "Software", "cost": 9.99, "renewal": "2027-01-09", "status": "Active", "owner": "admin" },
+  { "id": 7, "name": "Disney+", "category": "Streaming", "cost": 13.99, "renewal": "2026-12-14", "status": "Cancelled", "owner": "admin" },
+  { "id": 8, "name": "Audible", "category": "Other", "cost": 14.95, "renewal": "2026-11-25", "status": "Review", "owner": "admin" }
+]

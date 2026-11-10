@@ -1,56 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Sign In - Subscription Tracker</title>
-  <!-- normalize css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign In - Subscription Tracker</title>
+    <!-- normalize css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
 
-<!-- bootstrap 5 -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <nav id="main-nav"></nav>
 
-<!-- bootstrap icons -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="../css/styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <h1>Sign In</h1>
 
-  <nav>
-    <a href="../index.html">Home</a> |
-    <a href="signin.html">Sign In</a> |
-    <a href="admin.html">Account</a>
-  </nav>
+    <div id="message-area"></div>
 
-  <h1>Sign In</h1>
-
-  <!-- sign in form; make functional kater -->
-<form id="signin-form" style="max-width: 400px;">
+    <!-- sign in form -->
+    <form id="signin-form" style="max-width: 400px;">
       <div class="mb-3">
-        <label class="form-label">Email or Username</label>
-        <input type="text" class="form-control" id="signin-email">
+        <label for="signin-username" class="form-label">Username</label>
+        <input type="text" class="form-control" id="signin-username">
       </div>
 
       <div class="mb-3">
-        <label class="form-label">Password</label>
+        <label for="signin-password" class="form-label">Password</label>
         <input type="password" class="form-control" id="signin-password">
       </div>
 
       <button type="submit" class="btn btn-success">Sign In</button>
+      <p class="form-text mt-3">Test accounts are printed in the browser console.</p>
     </form>
 
-   <!-- footer links -->
-  <footer>
-    <p>Subscription Tracker · 
-      <a href="https://github.com/" target="_blank">GitHub Profile</a> · 
-      <a href="https://github.com/" target="_blank">Source Code</a>
-    </p>
-  </footer>
+    <!-- footer links -->
+    <footer>
+      <p>Subscription Tracker ·
+        <a href="https://github.com/" target="_blank">GitHub Profile</a> ·
+        <a href="https://github.com/" target="_blank">Source Code</a>
+      </p>
+    </footer>
 
-   <!-- link to bootstrap, jquery, and js-->
-         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="../js/app.js"></script>
-</body>
-
+    <!-- link to bootstrap and js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/app.js"></script>
+  </body>
 </html>

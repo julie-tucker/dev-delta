@@ -1,12 +1,12 @@
 
 # Subscription Tracker
 
->See  all of your subscriptions
+>See  all of your subscriptions in one place!
 
 **Author:** Julie Tucker  
-**Project:** dev|bravo  
-**Version:** 0.1  
-**Date:** TBD
+**Project:** dev|delta  
+**Version:** 1.0
+**Date:** nov 10, 2026
 
 ## User Story
 
@@ -15,19 +15,22 @@
 - **So that** I can keep track of how much I spend 
 
 ## Narrative
-I have many subscriptions, such as spotify, hulu, etc. I lose track of what I am paying for and how much I am paying. I created this app n=to track active/inactive subscriptions and their costs.
+I have many subscriptions, such as spotify, hulu, etc. I lose track of what I am paying for and how much I am paying. I created this app to track active/inactive subscriptions and their costs.
 
-**Current version:**
-This is just the front end for the web app. most things are visible but not functional
+**0.1 Version:**
+the front end for the web app. most things are visible but not functional. has hardcoded values, such as what subscription you have. you can switch between pages in the nav bar. however, this will be change in later versions to have a private admin, index, etc page. everything will be locked behind a sign in/up page.
 
-**Later Versions:**
+**1.0 Version:** 
+
+
+**Later Versions:** change this
 Will include: more functionality for
 - adding new subscriptions
 - search and filtering
 - calculating costs
 - etc
 
-## Simple Test
+## Simple Test change this
 
 Can the user see a list of subscriptions?
 - [x] Yes, however they are hardcoded for now
@@ -37,7 +40,7 @@ Can the user find the Add Subscription form?
 - [x] Yes
 - [ ] No
 
-## Technology Stack
+## Technology Stack chnage this
 
 - HTML5
 - CSS3
@@ -49,7 +52,8 @@ Can the user find the Add Subscription form?
 - jQuery
 - Git + GitHub + GitHub Pages
 
-## Project Structure
+## Project Structure change this
+```
 dev-bravo/
 ├── index.html
 ├── docs/
@@ -62,6 +66,4 @@ dev-bravo/
 ├── js/
 │   └── app.js
 └── README.md
-=======
-# dev-bravo-julie-tucker-submission
->>>>>>> baa8f9ed4122b75a95516d9c272fa9696ba14d42
+```
